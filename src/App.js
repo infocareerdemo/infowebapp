@@ -24,7 +24,13 @@ import ChangePassword from './pages/ChangePassword';
 import ChangePaswd from './pages/ChangePaswd';
 import ChngPass from './pages/ChngPass';
 import ChatRoom from './chatRoom';
-
+import Navpage from './camera/Navpage';
+import HeaderCamera from './camera/HeaderCamera';
+import Qutions from './camera/Qutions';
+import Imagecapter from './camera/Imagecapter';
+import Qutionsfromapi from './camera/Qutionsfromapi';
+import Quiz from './camera/Quiz';
+import QuizResult from './camera/QuizResult';
 
 const App = () => {
 
@@ -44,10 +50,18 @@ const App = () => {
           <Route path="/linechart" element={<LineChart />} />
           <Route path="/register" element={<RegisterComponent />} />
           <Route path="/myprofile" element={<MyProfile />} />
-         {/*  <Route path="/changepwd" element={<ChangePaswd />} />*/}
           <Route path="/chngpass" element={<ChngPass />} />
           <Route path="/chatroom" element={<ChatRoom/>} />
-          {/* <Route path="/chatroom" element={<ChatRoom/>} /> */}
+          <Route path="/camerarec" element={<ChatRoom/>} />
+          
+
+        <Route path="/nav" element={<Navpage></Navpage>}></Route>
+        <Route  index element={<HeaderCamera/>}></Route>
+        <Route path="/questions" element={<Qutions></Qutions>}> </Route>
+        <Route path='/Imagecapture' element={<Imagecapter></Imagecapter>}></Route>
+        <Route path='/Qutionsfromapi' element={<Qutionsfromapi></Qutionsfromapi>}></Route>
+        <Route path='/Quiz'element={<Quiz></Quiz>}></Route>
+        <Route path='/QuizResult' element={<QuizResult></QuizResult>}></Route>
 
         </Routes>
         <SessionTimeout timeoutMinutes={sessionTimeoutMinutes} />
