@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #5297e1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #231616;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.adduserBtn {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-container {
+  display: block;
+  width: 40%;
+  padding: 1px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+
+.main-container-a2 {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.btn btn-danger {
+  background-color: #e64b4b;
+}
+
+.form-group-res {
+
+  display: block;
+  width: 40%;
+  padding: 1px;
+
+  color: hsla(0, 100%, 1%, 0.758);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-decoration: none;
+
+}
+
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90%;
+  margin-left: 250px;
+  transition: all 0.2s ease-in-out;
+  /* transition: all; */
+  /* overflow-y: hidden !important; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+
+  /* border: 0px solid #ddd;*/
+  margin: 10px;
+}
+
+.subBtn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.resiterSubmitBtn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.main_container{
+  width: 100%;
+  height: 100%;
+  background-color: gray; /* Set your desired background color */
+}
+.ChangePass-Container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
+}

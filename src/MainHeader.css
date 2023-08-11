@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width:100%;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #f0f0f0;
+}
+
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  padding: 8px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-icon {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  color: #000;
+  background-color: #f0f0f0;
+}
+
+.logout-item {
+  color: #e63946;
+}
+
+.change-password-item {
+  color: #457b9d;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.sidebar {
+  background-color: #dbd8d8;
+  color: #333;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu-list li .menu-icon {
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.menu-list li .sd-link {
+  color: #000;
+  text-decoration: none;
+  align-items: center;
+}
+
+.menu-list li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.sd-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-item-with-space {
+  margin-bottom: 10px;
+}
+
+.toggle-sidebar {
+  margin-left: 250px;
+  transition: margin 1000ms ease-in-out, box-shadow 1000ms ease-in-out;
+}
+
+.menu-item {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: aquamarine;
+  background-color: whitesmoke;
+}
+
+.menu-itema a:hover {
+  color: aqua;
+}

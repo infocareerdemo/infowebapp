@@ -1,0 +1,372 @@
+
+/* .sidebar {
+
+    width: 20%;
+
+    flex-shrink: 0;
+
+    border-right: 1px solid #ddd;
+
+} */
+
+ 
+
+/* .content {
+
+    flex: 1;
+
+    padding: 1rem;
+
+} */
+
+ 
+
+ 
+
+.metismenu,
+
+.metismenu ul {
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style: none;
+
+    width: auto;
+
+    text-align: left;
+
+    /* background-color: gray; */
+
+}
+
+ 
+
+.metismenu a {
+
+    display: block;
+
+    padding: 0.5rem 1rem;
+
+    text-decoration: none;
+
+    color:white;
+
+    background-color: #34444c;
+
+    padding: 5;
+
+}
+
+ 
+
+.metismenu ul li a {
+
+    width: auto;
+
+}
+
+ 
+
+.metismenu a:hover {
+
+    color: rgb(65, 98, 207);
+
+    background-color: #333;
+
+}
+
+ 
+
+.metismenu .active {
+
+    background: #dbdbdb;
+
+    color: rgb(65, 98, 207);
+
+    background-color: #333;
+
+}
+
+ 
+
+.metismenu ul a {
+
+    padding-left: 2rem;
+
+    width: max-content;
+
+}
+
+ 
+
+ 
+
+/*!
+
+* metismenujs - v1.4.0
+
+* A menu plugin
+
+* https://github.com/onokumus/metismenujs#readme
+
+*
+
+* Made by Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+
+* Under MIT License
+
+*/
+
+:where(html) {
+
+    --mm-transition-timing-function: ease;
+
+    --mm-trantisition-duration: 0.35s;
+
+  }
+
+  .button{
+
+    background-color:blue;
+
+  }
+
+  #closebtn{
+
+    background-color: blue;
+
+  }
+
+ 
+
+  .metismenu .mm-collapse:not(.mm-show) {
+
+    display: none;
+
+  }
+
+ 
+
+  .metismenu .mm-collapsing {
+
+    position: relative;
+
+    height: 0;
+
+    overflow: hidden;
+
+    flex-wrap: nowrap;
+
+    transition: height var(--mm-trantisition-duration) var(--mm-transition-timing-function);
+
+  }
+
+ 
+
+  .metismenu .has-arrow {
+
+    position: relative;
+
+  }
+
+ 
+
+  .metismenu .has-arrow::after {
+
+    position: absolute;
+
+    content: "";
+
+    width: 0.5em;
+
+    height: 0.5em;
+
+    border-width: 0 0 1px 1px;
+
+    border-style: solid;
+
+    border-color: initial;
+
+    inset-inline-end: 1em;
+
+    transform: rotate(45deg) translate(0, -50%);
+
+    transform-origin: top;
+
+    top: 50%;
+
+    transition: transform var(--mm-trantisition-duration) var(--mm-transition-timing-function);
+
+  }
+  *[dir=rtl] .metismenu .has-arrow::after {
+
+    transform: rotate(-135deg) translate(0, -50%);
+
+  }
+
+ 
+
+  .metismenu .mm-active > .has-arrow::after,
+
+  .metismenu .has-arrow[aria-expanded=true]::after {
+
+    transform: rotate(-45deg) translate(0, -50%);
+
+  }
+
+ 
+
+  @media (prefers-reduced-motion: reduce) {
+
+    .metismenu .mm-collapsing,
+
+    .metismenu .has-arrow::after {
+
+      transition-duration: 0.000000001s;
+
+    }
+
+  }
+
+ 
+
+  /*# sourceMappingURL=metismenujs.css.map */  
+
+  .my_table tr:nth-child(odd) td{
+
+    background:black;
+
+  }
+
+  .my_table tr:nth-child(even) td{
+
+     background:#333;
+
+  }
+
+ .my_table td{
+
+    color: white;
+
+    padding-left: 1% ;
+
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  * {box-sizing: border-box;}
+
+ 
+
+    .form-inline {  
+
+      display: flex;
+
+      flex-flow: row wrap;
+
+      align-items: center;
+
+    }
+
+ 
+
+    .form-inline label {
+
+      margin: 5px 10px 5px 0;
+
+    }
+
+ 
+
+    .form-inline input {
+
+      vertical-align: middle;
+
+      margin: 5px 10px 5px 0;
+
+      padding: 10px;
+
+      background-color: #fff;
+
+      border: 1px solid #ddd;
+
+    }
+
+ 
+
+    .button-section {
+
+      margin: 3%;
+
+    }
+
+    .button {
+
+      padding: 10px 20px;
+
+      background-color: dodgerblue;
+
+      border: 1px solid #ddd;
+
+      color: white;
+
+      cursor: pointer;
+
+    }
+
+ 
+
+    .button:hover {
+
+      background-color: royalblue;
+
+    }
+
+ 
+
+    .remove {
+
+      background-color: rgb(192, 53, 53);
+
+    }
+
+    .remove:hover {
+
+      background-color: rgb(187, 43, 43);
+
+    }
+
+ 
+
+    body {
+
+      font-family: sans-serif;
+
+      -webkit-font-smoothing: auto;
+
+      -moz-font-smoothing: auto;
+
+      -moz-osx-font-smoothing: grayscale;
+
+      font-smoothing: auto;
+
+      text-rendering: optimizeLegibility;
+
+      font-smooth: always;
+
+      -webkit-tap-highlight-color: transparent;
+
+      -webkit-touch-callout: none;
+
+    }
+
+   
+
+    h1 {
+
+      font-size: 1.5rem;
+
+    }
+
