@@ -12,9 +12,7 @@ function HeaderCamera() {
   };
 
   return (
-    <div>
-       <MainHeader></MainHeader>
-       <Sidepannel></Sidepannel>
+   
     <div className="App">
       <header className="App-header">
         <p>
@@ -43,7 +41,7 @@ function HeaderCamera() {
 
       </header>
     </div>
-    </div>
+   
   );
 }
 

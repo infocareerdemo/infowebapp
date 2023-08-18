@@ -61,6 +61,12 @@ const Sidepannel = () => {
             <li className={local.pathname === "/ChatRoom" ? "active" : ""}>
               <Link to="/camerarec" ><ReceiptOutlinedIcon /><span>Camera</span></Link>
             </li>
+            <li className={local.pathname === "/CompanySearch" ? "active" : ""}>
+              <Link to="/companysearch" ><ReceiptOutlinedIcon /><span>CompanySearch</span></Link>
+            </li>
+            <li className={local.pathname === "/CommonSearch" ? "active" : ""}>
+              <Link to="/commonsearch" ><ReceiptOutlinedIcon /><span>CommonSearch</span></Link>
+            </li>
           </ul>
         </div>
       </div>

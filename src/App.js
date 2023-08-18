@@ -31,6 +31,9 @@ import Imagecapter from './camera/Imagecapter';
 import Qutionsfromapi from './camera/Qutionsfromapi';
 import Quiz from './camera/Quiz';
 import QuizResult from './camera/QuizResult';
+import Search from './pages/CompanySearch';
+import CompanySearch from './pages/CompanySearch';
+import CommonSearch from './pages/CommonSearch';
 
 const App = () => {
 
@@ -53,6 +56,8 @@ const App = () => {
           <Route path="/chngpass" element={<ChngPass />} />
           <Route path="/chatroom" element={<ChatRoom/>} />
           <Route path="/camerarec" element={<ChatRoom/>} />
+          <Route path="/companysearch" element={<CompanySearch/>} />
+          <Route path="/commonsearch" element={<CommonSearch/>} />
           
 
         <Route path="/nav" element={<Navpage></Navpage>}></Route>

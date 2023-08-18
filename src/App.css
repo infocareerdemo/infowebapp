@@ -210,3 +210,20 @@ th {
   border-radius: 10px;
   margin-top: 50px;
 }
+/* table {
+  border: 1px solid forestgreen;
+  width: 1000px;
+  height: 200px;
+
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+} */
+.searchTable{
+  border: 1px solid rgb(9, 14, 9);
+}

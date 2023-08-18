@@ -72,7 +72,7 @@ const MainHeader = (props) => {
           </span>
         </a>
         <div className="page-title-box">
-          <h3>InfoCareer Pvt Ltd</h3>
+          <h3>InfoDemo</h3>
         </div>
         <a id="mobile_btn" className="mobile_btn" onClick={() => onMenuClik()}><i className="fa fa-bars" /></a>
         <div className="nav user-menu" style={{marginTop:"10px"}}>

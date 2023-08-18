@@ -229,6 +229,28 @@ const ChangePassword = (usertoken, oldPassword, newPassword) => {
   }
 };
 
+const companySearch = (symbol) => {
+  const api = axios.create({
+      baseURL: URL
+  });
+  return api.post("searchSymbol?symbol=" + symbol)
+      .then((response) => {
+      console.log(response)
+      return response
+      })
+};
+
+const commonSearch = (keyword) => {
+  const api = axios.create({
+      baseURL: URL
+  });
+  return api.post("search?keyword=" + keyword)
+      .then((response) => {
+      console.log(response)
+      return response
+      })
+};
+
 const authservice = {
   Login,
   WdgeList,
@@ -239,7 +261,9 @@ const authservice = {
   LineChart,
   createRegisterUser,
   myProfile,
-  ChangePassword
+  ChangePassword,
+  companySearch,
+  commonSearch
 };
 
 export default authservice;
